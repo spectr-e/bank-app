@@ -7,9 +7,11 @@ import CTA from './CTA'
 import FeedbackCard from './FeedbackCard'
 import Footer from './Footer'
 import GetStarted from './GetStarted'
+import Hero from './Hero'
 import Stats from './Stats'
 import Testimonials from './Testimonials'
 export {
+  Hero,
   GetStarted,
   FeedbackCard,
   Footer,
