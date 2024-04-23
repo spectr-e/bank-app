@@ -1,3 +1,3 @@
 import Billing from './Billing'
-
-export { Billing }
+import Business from './Business'
+export { Billing, Business }
