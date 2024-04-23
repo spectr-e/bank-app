@@ -10,6 +10,7 @@ import GetStarted from './GetStarted'
 import Hero from './Hero'
 import Stats from './Stats'
 import Testimonials from './Testimonials'
+import NavBar from './NavBar'
 export {
   Hero,
   GetStarted,
@@ -23,4 +24,5 @@ export {
   Clients,
   Billing,
   Business,
+  NavBar,
 }
