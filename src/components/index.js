@@ -6,9 +6,11 @@ import Clients from './Clients'
 import CTA from './CTA'
 import FeedbackCard from './FeedbackCard'
 import Footer from './Footer'
+import GetStarted from './GetStarted'
 import Stats from './Stats'
 import Testimonials from './Testimonials'
 export {
+  GetStarted,
   FeedbackCard,
   Footer,
   CTA,
