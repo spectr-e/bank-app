@@ -1,3 +1,18 @@
+// components
+import {
+  Hero,
+  Footer,
+  CTA,
+  Stats,
+  Testimonials,
+  CardDeal,
+  Clients,
+  Billing,
+  Business,
+  NavBar,
+} from './components'
+
+// styles
 import styles from './styles/style'
 
 const App = () => {
