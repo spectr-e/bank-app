@@ -21,6 +21,10 @@ const GetStarted = () => (
           className='w-[24px] h-[24px] object-contain'
         />
       </div>
+      {/* text */}
+      <p className='font-poppins font-medium text-[18px] leading-[24px]'>
+        <span className='text-gradient'>Started</span>
+      </p>
     </div>
   </div>
 )
