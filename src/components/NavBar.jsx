@@ -36,9 +36,9 @@ const NavBar = () => {
 
         {/* menu links */}
         <div
-          className={`${
+          className={` p-6 bg-black-gradient right-0 absolute top-20 mx-4 my-2 min-w-[140px] rounded-xl sidebar ${
             toggle ? 'flex' : 'hidden'
-          } p-6 bg-black-gradient right-0 absolute top-20 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } `}
         >
           <ul className='flex flex-col items-start justify-end flex-1 list-none'>
             {navLinks.map((link, index) => (
