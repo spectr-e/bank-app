@@ -31,7 +31,7 @@ const NavBar = () => {
           src={toggle ? close : menu}
           alt='open|close menu'
           className='w-[28px] h-[28px] object-contain'
-          onClick={() => setToggle(!toggle)}
+          onClick={() => setToggle((prev) => !prev)}
         />
       </div>
     </nav>
