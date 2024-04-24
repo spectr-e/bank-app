@@ -54,6 +54,11 @@ const Hero = () => (
       <div className='absolute z-1 w-[80%] h-[80%] rounded-full bottom-40 white__gradient' />
       <div className='absolute z-0 w-[p50%] h-[50%] right-20 bottom-20 blue__gradient' />
     </div>
+
+    {/* Get Started CTA on mobile */}
+    <div className={`ss:hidden ${styles.flexCenter}`}>
+      <GetStarted />
+    </div>
   </section>
 )
 
