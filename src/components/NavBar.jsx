@@ -33,6 +33,26 @@ const NavBar = () => {
           className='w-[28px] h-[28px] object-contain'
           onClick={() => setToggle((prev) => !prev)}
         />
+
+        {/* menu links */}
+        <div
+          className={`${
+            toggle ? 'flex' : 'hidden'
+          } p-6 bg-black-gradient right-0 absolute top-20 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+        >
+          <ul className='flex flex-col items-start justify-end flex-1 list-none'>
+            {navLinks.map((link, index) => (
+              <li
+                key={index}
+                className={`font-normal  cursor-pointer text-white text-[16px] font-poppins  ${
+                  index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
+                }`}
+              >
+                <a href={`#${link.id}`}>{link.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </nav>
   )
