@@ -3,7 +3,7 @@ import { discount, robot } from '../assets'
 import GetStarted from './GetStarted'
 const Hero = () => (
   <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-    {/* text column */}
+    {/* text section */}
     <div
       className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
     >
@@ -40,13 +40,19 @@ const Hero = () => (
       </p>
     </div>
 
-    {/* robotic arm */}
+    {/* robotic section */}
     <div className=''>
+      {/* robotic arm */}
       <img
         src={robot}
         alt='billing'
         className='w-[100%] h-[100%] relative z-[5]'
       />
+
+      {/* gradients */}
+      <div className='absolute z-0 w-[40%] h-[36%] top-0 pink__gradient' />
+      <div className='absolute z-1 w-[80%] h-[80%] rounded-full bottom-40 white__gradient' />
+      <div className='absolute z-0 w-[p50%] h-[50%] right-20 bottom-20 blue__gradient' />
     </div>
   </section>
 )
