@@ -41,7 +41,7 @@ const Hero = () => (
     </div>
 
     {/* robotic section */}
-    <div className=''>
+    <div className={`flex-1 flex ${styles.flexCenter} md:my-0 relative my-10`}>
       {/* robotic arm */}
       <img
         src={robot}
