@@ -34,10 +34,19 @@ const Hero = () => (
         Payment Method.
       </h1>
       <p className={`${styles.paragraph} max-w-[480px] mt-5`}>
-        Out team of experts use a methodology to identify the credit cards most
-        likely to fit your needs. We examine annual percentage rates, annual
-        fees.
+        Out team of experts use a unique methodology to identify the credit
+        cards most likely to fit your needs. We examine annual percentage rates,
+        annual fees.
       </p>
+    </div>
+
+    {/* robotic arm */}
+    <div className=''>
+      <img
+        src={robot}
+        alt='billing'
+        className='w-[100%] h-[100%] relative z-[5]'
+      />
     </div>
   </section>
 )
