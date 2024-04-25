@@ -26,6 +26,20 @@ const Billing = () => (
         molestias ab magnam consectetur facilis dignissimos ea accusamus
         praesentium, cupiditate quam.
       </p>
+
+      {/* app buttons */}
+      <div className='flex flex-row flex-wrap mt-6 sm:mt-10'>
+        <img
+          src={apple}
+          alt='apple_store'
+          className='w-[128px] object-contain h-[44px] cursor-pointer mr-5'
+        />
+        <img
+          src={google}
+          alt='google_play'
+          className='w-[128px] object-contain h-[44px] cursor-pointer'
+        />
+      </div>
     </div>
   </section>
 )
