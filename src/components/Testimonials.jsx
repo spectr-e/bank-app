@@ -25,6 +25,15 @@ const Testimonials = () => (
         </p>
       </div>
     </div>
+
+    {/* cards area */}
+    <div
+      className={`flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]`}
+    >
+      {feedback.map((card, index) => (
+        <FeedbackCard key={card.id} {...card} />
+      ))}
+    </div>
   </section>
 )
 
