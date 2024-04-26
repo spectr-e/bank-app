@@ -121,7 +121,7 @@
   background: transparent;
 }
 
-.feedback-card::hover {
+.feedback-card:hover {
   background: var(--black-gradient);
 }
 
