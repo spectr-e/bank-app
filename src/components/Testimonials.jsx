@@ -8,7 +8,7 @@ const Testimonials = () => (
     id='clients'
   >
     {/* TODO: Gradient */}
-    <div />
+    <div className='absolute z-0 w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient' />
 
     {/* title + content container */}
     <div className='items-center flex-col justify-between flex md:flex-row sm:mb-16 relative mb-4 z-[1] w-full'>
