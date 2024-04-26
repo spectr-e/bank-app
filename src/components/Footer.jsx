@@ -55,7 +55,14 @@ const Footer = () => (
     {/* copyright section */}
     <div
       className={`w-full flex justify-between items-center flex-col md:flex-row pt-6 border-t-[2px] border-t-[#3f3e45]`}
-    ></div>
+    >
+      {/* text */}
+      <p
+        className={`font-poppins text-center text-[18px] leading-[28px] text-white`}
+      >
+        2024 Josiah. All Rights Reserved.
+      </p>
+    </div>
   </section>
 )
 
