@@ -51,6 +51,11 @@ const Footer = () => (
         ))}
       </div>
     </div>
+
+    {/* copyright section */}
+    <div
+      className={`w-full flex justify-between items-center flex-col md:flex-row pt-6 border-t-[2px] border-t-[#3f3e45]`}
+    ></div>
   </section>
 )
 
