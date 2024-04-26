@@ -16,7 +16,17 @@ const FeedbackCard = ({ content, title, name, img }) => (
     {/* clientInfo */}
     <div className={`flex flex-row`}>
       {/* avatar */}
-      <img src={img} alt='avatar' className='w-[48px] h-[48px] rounded-full' />
+      <img src={img} alt='avatar' className='w-[52px] h-[52px] rounded-full' />
+
+      {/* name + creds */}
+      <div className={`flex flex-col ml-4`}>
+        <h4 className='text-white font-poppins font-semibold text-[20px] leading-[32px]'>
+          {name}
+        </h4>
+        <p className='font-poppins text-dimWhite text-[16px] leading-[24px font-normal]'>
+          {title}
+        </p>
+      </div>
     </div>
   </div>
 )
