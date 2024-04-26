@@ -33,6 +33,20 @@ const Footer = () => (
             >
               {footerLink.title}
             </h4>
+
+            {/* individual footerLinks to respective titles */}
+            <ul className={`list-none mt-4`}>
+              {footerLink.links.map((link, i) => (
+                <li
+                  className={`font-poppins text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
+                    i !== footerLink.links.length - 1 ? 'mb-4' : 'mb-0'
+                  }`}
+                  key={i}
+                >
+                  {link.name}
+                </li>
+              ))}
+            </ul>
           </div>
         ))}
       </div>
