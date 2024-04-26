@@ -13,6 +13,11 @@ const CTA = () => (
         anywhere on the planet.
       </p>
     </div>
+
+    {/* get started button */}
+    <div className={`${styles.flexCenter} ml-0 sm:ml-10 mt-10 sm:mt-0`}>
+      <Button />
+    </div>
   </section>
 )
 
