@@ -62,6 +62,20 @@ const Footer = () => (
       >
         2024 Josiah. All Rights Reserved.
       </p>
+
+      {/* social media */}
+      <div className='flex flex-row mt-6 md:mt-0'>
+        {socialMedia.map((social, i) => (
+          <img
+            src={social.icon}
+            key={social.id}
+            alt={social.id}
+            className={`w-[20px] h-[20px] object-contain cursor-pointer ${
+              i !== social.length - 1 ? 'mr-6' : 'mr-0'
+            }`}
+          />
+        ))}
+      </div>
     </div>
   </section>
 )
